@@ -12,7 +12,7 @@ const char* password = "weliton84";
 // Must match the sender structure
 typedef struct struct_message {
   int id;
-  double cor1;
+  double cor1; // Valor da corrente sensor 1
   double cor2;
   unsigned int readingId;
 } struct_message;
